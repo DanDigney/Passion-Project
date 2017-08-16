@@ -16,33 +16,33 @@
 
 ## Week 1
 
--Concept Approved by instructor
--Create a public repo for yourself and add the sinatra-mvc-skeleton zip as your starting point.
--User Stories (Add to repo root README.md)
--Schema (Screen Shot in repo root README.md)
--Models, Migrations & Associations
--Seeds
--Add Users and login (bCrypt)
--Basic CRUD for 1 RESTful resource (Including all required views)
--Deploy app to Heroku (optional for week 1 but recommended)
+- Concept Approved by instructor
+- Create a public repo for yourself and add the sinatra-mvc-skeleton zip as your starting point.
+- User Stories (Add to repo root README.md)
+- Schema (Screen Shot in repo root README.md)
+- Models, Migrations & Associations
+- Seeds
+- Add Users and login (bCrypt)
+- Basic CRUD for 1 RESTful resource (Including all required views)
+- Deploy app to Heroku (optional for week 1 but recommended)
 
 
 ## Week 2
 
--AJAXify at least 1 workflow
--Add Javascript for at least 1 non AJAX thing
--Add initial styles (Doesn't have to be beautiful but something to get started)
--Expand additional CRUD workflows as needed
--Ensure Errors are handled
--Write at least 5 model rspec specs
+- AJAXify at least 1 workflow
+- Add Javascript for at least 1 non AJAX thing
+- Add initial styles (Doesn't have to be beautiful but something to get started)
+- Expand additional CRUD workflows as needed
+- Ensure Errors are handled
+- Write at least 5 model rspec specs
 
 
 ## Week 3
 
--Integrate an external data source via an API
--Clean up UI/UX flow for easier use and less bugs
--Write at least 5 additional rspec specs
--Continue adding styles
--Ensure App is deployed and keys are secured.
--Continue AJAXifying workflows
+- Integrate an external data source via an API
+- Clean up UI/UX flow for easier use and less bugs
+- Write at least 5 additional rspec specs
+- Continue adding styles
+- Ensure App is deployed and keys are secured.
+- Continue AJAXifying workflows
 
