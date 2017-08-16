@@ -1,30 +1,11 @@
-> **Note**: This branch (master) contains a skeleton without any app code, perfect for creating a _new_ application or challenge. If you're looking for an example app built with this skeleton, take a look at the [example](/../..//tree/example) branch which includes basic CRUD and RSpec tests.
+> Ayyyyyyyyyyyy, this is my Passion Project ReadMe. As of 8/16/2016 (when I restarted), the goal of this project is to create an interactive website for **anyone** to view **U.S. Bill** information, from any state. 
+The sole purpose of having Users with accounts is to have open discussion on the Bill's information, the people & motives behind it, & alternatives to it. Currently, the idea is that this will be done through the comments underneath the bill (collapsing coment chains is most likely the way I will try to pursue this), with the idea of seperate forms being adding & the comments under the bill just being the 'highlights' of the comments.
+There will be a voteing system in place, but the votes only go in one direction. Users will be able to remove their votes within a certain time frame (Probably based on the Users activity around the Bill, like if they continue to view the Bill weekly, they will be able to take away their vote at any time).
 
-### Purpose
-The Sinatra Skeleton:
+Probably gonna have to fix the MD syntax of this.
 
-1. Provides a foundation for building challenges or creating a new Sinatra application.
-2. Demonstrates a reasonable set of practices around building Sinatra applications.
-3. Eases the transition to Rails for Dev Bootcamp students
+### Passion Project Readme
 
-### Quickstart
+Not much here, gonna make a check list of all the shit I should be doing.
 
-1.  `bundle install`
-2.  `shotgun config.ru`
 
-As needed, create models & migrations with the `rake` tasks:
-
-```
-rake generate:migration  # Create an empty migration in db/migrate, e.g., rake generate:migration NAME=create_tasks
-rake generate:model      # Create an empty model in app/models, e.g., rake generate:model NAME=User
-```
-
-### Contributing
-
-We would love for you to help make the skeleton more awesome, There are three ways to contribute:
-
-1. Ask for a bug fix or enhancement!
-2. Submit a pull request for a bug fix or enhancement!
-3. Code review an open pull request!
-
-Be prepared to give and receive specific, actionable, and kind feedback!
