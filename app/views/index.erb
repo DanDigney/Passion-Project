@@ -1,0 +1,17 @@
+<% response = HTTParty.get('https://www.govtrack.us/api/v2/bill?congress=115&order_by=-current_status_date&limit=3') %>
+
+<p><% this = JSON.parse(response.body) %></p>
+
+
+<% this['objects'].each do |x| %>
+  <% page = Nokogiri::HTML(open("#{x['link']}/text")) %>
+  <div class="shrink">
+    <% something = page.css('section.section') %>
+    <p class="info"><%= x['display_number'] %> -- Introduced on: <%= x['introduced_date'] %></p>
+    <p class="info">Sponsored by: <%= x['sponsor']['firstname'] %> <%= x['sponsor']['lastname'] %> (<%= x['sponsor_role']['phone'] %>), <%= x['sponsor_role']['description'] %></p>
+    <p class="info"><%= x['current_status_description'] %></p>
+    <p><%= something %></p>
+  </div>
+  <br />
+<% end %>
+

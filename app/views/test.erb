@@ -1,0 +1,16 @@
+<% @bills.each do |bill| %>
+  <div class="shrink">
+    <p class="info"><%= bill.name %> - <%= bill.date %></p>
+    <p class="info"><%= bill.sponsor %></p>
+    <p class="info"><%= bill.current_status %></p>
+    <p><%= bill.content %></p>
+  </div>
+  <br />
+
+  <div class="comments">
+    <% bill.comments.each do |comment| %>
+      <p class="info"><%= comment.content %> - posted by: <%= User.find(comment.user_id).username %></p>
+    <% end %>
+  </div>
+  <br />
+<% end %>
